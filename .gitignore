@@ -31,17 +31,3 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
-
-
-# Ignore controllers, models, routes, Gemfile, services, and tests
-app/controllers/*
-app/models/*
-config/routes.rb
-Gemfile
-Gemfile.lock
-app/services/*
-spec/*
-test/*
-db/migrate/*
-lib/bijective_encoder.rb
-lib/tasks/populate_db.rake
